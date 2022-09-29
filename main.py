@@ -25,5 +25,5 @@ predicted class labels of text data.
 
 from project import data,data_classification,Y_train,Y_test
 
-clf = data_classification(clf_opt='nb')
-clf.classification('bow', Y_train, Y_test)
+clf = data_classification(clf_opt='lr')
+clf.classification('ngram13', Y_train, Y_test)
