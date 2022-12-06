@@ -1,0 +1,10 @@
+python3
+numpy
+pandas
+scikit-learn
+time
+re
+matplotlib.pyplot
+nltk
+collections
+itertools
